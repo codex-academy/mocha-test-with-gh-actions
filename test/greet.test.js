@@ -16,4 +16,10 @@ describe("The greet function", function() {
 
     });
 
+    it("should be able to greet Andrey", function() {
+        
+        assert.equal('Hello, Andrey', greet("Andre"));
+
+    });
+
 })
